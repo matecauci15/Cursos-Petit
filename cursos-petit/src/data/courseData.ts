@@ -117,5 +117,44 @@ export const courses: Course[] = [
     instructorRole: 'Especialistas en Desarrollo Profesional',
     price: 'Gratuito',
     originalPrice: undefined
+  },
+  {
+    id: 'programas-educacion-financiera-bcra-2025',
+    title: 'Programas de Educación Financiera BCRA 2025',
+    description: 'Programas educativos del Banco Central de Argentina para promover la inclusión financiera, dirigidos a docentes, emprendedores y sectores vulnerables.',
+    detailedDescription: 'Para promover la inclusión financiera el Banco Central, en colaboración con distintos gobiernos provinciales, ministerios, universidades, entidades financieras, entidades no financieras y organismos nacionales e internacionales, lleva adelante programas educativos dirigidos a diferentes públicos para favorecer el desarrollo de las capacidades y la salud financiera de todas las personas, priorizando a los sectores más vulnerables de la sociedad. Incluye: "La Educación Financiera en el Aula" para docentes (aplicado en 10 provincias: Chaco, Catamarca, La Pampa, La Rioja, Misiones, Neuquén, San Juan, San Luis, Santa Fe y Tierra del Fuego), "Finanzas Cerca" para emprendedores y sectores vulnerables, talleres de visita al BCRA, y el Grupo de Trabajo en Iniciativas de Educación Financiera (GTIEF).',
+    duration: 'Variable según programa',
+    level: 'Todos los niveles',
+    language: ['Español'],
+    students: '20,000+ docentes inscriptos, 1,300,000+ estudiantes alcanzados, 4,000+ formadores en territorio',
+    rating: 4.8,
+    image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop',
+    tags: ['BCRA', 'Educación Financiera', 'Inclusión', 'Argentina', 'Docentes'],
+    whatYouWillLearn: [
+      'Actualizar y afianzar contenidos de Educación Financiera',
+      'Integrar la educación financiera en espacios curriculares',
+      'Facilitar que estudiantes desarrollen capacidades financieras y socialicen saberes',
+      'Desarrollar habilidades financieras para interactuar con el sistema financiero',
+      'Fomentar el uso de medios electrónicos de pago',
+      'Contribuir a mejorar la toma de decisiones financieras',
+      'Promover la inclusión financiera en sectores vulnerables',
+      'Implementar capacitaciones territoriales con grupos específicos',
+      'Conocer misiones y funciones del BCRA',
+      'Comprender diferencias entre efectivo y billetera digital',
+      'Gestionar cuentas para menores de edad',
+      'Identificar riesgos en seguridad de información y apuestas en línea'
+    ],
+    requirements: [
+      'Para docentes: ser docente de educación secundaria con título habilitante',
+      'Para "Finanzas Cerca": estar en sectores vulnerables o emprendedores',
+      'Acceso a internet para modalidades virtuales',
+      'Residir en provincias con convenios BCRA activos',
+      'Para talleres presenciales: contactar bancocentraleduca@bcra.gob.ar',
+      'Para formadores: experiencia en trabajo territorial'
+    ],
+    instructor: 'BCRA - Gerencia de Educación Financiera',
+    instructorRole: 'Banco Central de la República Argentina',
+    price: 'Gratuito',
+    originalPrice: undefined
   }
 ];
