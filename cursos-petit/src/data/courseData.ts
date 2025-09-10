@@ -156,5 +156,81 @@ export const courses: Course[] = [
     instructorRole: 'Banco Central de la República Argentina',
     price: 'Gratuito',
     originalPrice: undefined
+  },
+  {
+    id: 'bna-te-suma-educacion-financiera',
+    title: 'BNA TE SUMA: PROGRAMA DE EDUCACION FINANCIERA DEL BANCO NACION',
+    description: 'Programa de inclusión y educación financiera del Banco Nación que busca transformar la vida de las personas a través del conocimiento financiero.',
+    detailedDescription: 'BNA Te Suma es el programa de inclusión y educación financiera del Banco de la Nación Argentina que busca promover el acceso a conocimientos y contenidos financieros para miles de argentinos, especialmente sectores de bajos ingresos, rurales, personas mayores y pequeñas empresas. El programa se estructura en tres pilares fundamentales: una Red de Facilitadores Financieros con 1.000 trabajadores capacitados, convenios con organismos externos y entidades públicas, y productos y servicios inclusivos diseñados para acercar a todas las personas al sistema financiero.',
+    duration: 'Permanente - Talleres y capacitaciones variables',
+    level: 'Todos los niveles',
+    language: ['Español'],
+    students: 'Miles de beneficiarios en todo el país',
+    rating: 4.7,
+    image: 'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=800&h=400&fit=crop',
+    tags: ['BNA', 'Inclusión Financiera', 'Educación Financiera', 'Banco Nación', 'Argentina'],
+    whatYouWillLearn: [
+      'Conceptos fundamentales de educación financiera',
+      'Uso de servicios financieros y canales digitales',
+      'Herramientas de ahorro, crédito e inversión',
+      'Acceso a productos bancarios inclusivos',
+      'Utilización de banca móvil y canales electrónicos',
+      'Aprovechamiento de descuentos y beneficios bancarios',
+      'Gestión financiera para emprendimientos y pequeñas empresas',
+      'Alternativas al uso del efectivo',
+      'Desarrollo de capacidades financieras personales',
+      'Acceso al crédito y servicios financieros de calidad'
+    ],
+    requirements: [
+      'Ser mayor de edad o contar con autorización parental',
+      'Residir en Argentina',
+      'Preferencia para sectores de bajos ingresos, rurales, personas mayores',
+      'Pequeños emprendedores y comerciantes',
+      'No se requieren conocimientos previos',
+      'Acceso básico a documentación de identidad',
+      'Interés en mejorar conocimientos financieros'
+    ],
+    instructor: 'BNA - Red de Facilitadores Financieros',
+    instructorRole: 'Banco de la Nación Argentina',
+    price: 'Gratuito',
+    originalPrice: undefined
+  },
+  {
+    id: 'talleres-robotica-videojuegos-rosario',
+    title: 'TALLERES DE ROBOTICA Y VIDEOJUEGOS PARA NIÑOS',
+    description: 'Talleres presenciales de robótica y virtuales de creación de videojuegos para niños y niñas de Rosario.',
+    detailedDescription: 'Estos talleres están dirigidos a niños y niñas que quieran adentrarse en el mundo de la tecnología. El taller de robótica es presencial, con 8 encuentros donde los participantes construyen robots y los programan para realizar diferentes acciones y movimientos. El taller de videojuegos es virtual, transmitido por Twitch y YouTube, donde aprenderán sobre diseño del juego, programación, arte digital, sonido y musicalización para crear videojuegos completos.',
+    duration: 'Robótica: 8 encuentros de 1.5 horas semanales / Videojuegos: variable',
+    level: 'Principiante',
+    language: ['Español'],
+    students: 'Cientos de niños y niñas de Rosario',
+    rating: 4.9,
+    image: 'https://images.unsplash.com/photo-1581916459131-90da1f9c7162?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    tags: ['Robótica', 'Videojuegos', 'Programación', 'Niños', 'Tecnología', 'Rosario'],
+    whatYouWillLearn: [
+      'Construcción y programación de robots',
+      'Resolución de desafíos tecnológicos creativos',
+      'Diseño de videojuegos (reglas, objetivos, metas)',
+      'Programación básica para videojuegos',
+      'Creación de arte digital (gráficos, personajes, animaciones)',
+      'Incorporación de sonido y música en videojuegos',
+      'Trabajo en equipo y creatividad',
+      'Pensamiento lógico y resolución de problemas',
+      'Uso de herramientas tecnológicas',
+      'Desarrollo de proyectos completos'
+    ],
+    requirements: [
+      'Robótica: niños y niñas de 7 a 13 años',
+      'Videojuegos: niños y niñas de 10 a 16 años',
+      'Residir en Rosario',
+      'Para robótica: disponibilidad para asistir presencialmente',
+      'Para videojuegos: acceso a internet y dispositivo',
+      'No se requieren conocimientos previos',
+      'Inscripción previa obligatoria por distrito'
+    ],
+    instructor: 'Municipalidad de Rosario',
+    instructorRole: 'Gobierno de la Ciudad de Rosario',
+    price: 'Gratuito',
+    originalPrice: undefined
   }
 ];
