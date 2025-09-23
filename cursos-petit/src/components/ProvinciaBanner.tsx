@@ -1,4 +1,4 @@
-import sur from '../assets/provincia.jpg';
+import noticias from '../assets/noticias.png';
 
 // Banner Juegos Suramericanos 2026 con imagen oficial (300x250px)
 const ProvinciaBanner = () => {
@@ -13,7 +13,7 @@ const ProvinciaBanner = () => {
         <div className="relative rounded-2xl shadow-xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl w-80 h-64">
           {/* Imagen de fondo con aspecto 300x250 */}
           <img 
-            src={sur}
+            src={noticias}
             alt="Santa Fe Provincia"
             className="w-full h-full object-cover object-center"
             style={{ aspectRatio: '300/250' }}
