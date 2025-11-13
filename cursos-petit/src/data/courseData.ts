@@ -195,6 +195,7 @@ export const courses: Course[] = [
     price: 'Gratuito',
     originalPrice: undefined
   },
+ 
   {
     id: 'talleres-robotica-videojuegos-rosario',
     title: 'TALLERES DE ROBOTICA Y VIDEOJUEGOS PARA NIÑOS',
@@ -230,6 +231,44 @@ export const courses: Course[] = [
     ],
     instructor: 'Municipalidad de Rosario',
     instructorRole: 'Gobierno de la Ciudad de Rosario',
+    price: 'Gratuito',
+    originalPrice: undefined
+  },
+  {
+    id: 'escuela-oficios-unr',
+    title: 'Escuela de Oficios UNR: Capacitaciones Gratuitas',
+    description: 'Más de 60 cursos de oficios gratuitos con certificación universitaria para inserción laboral en Rosario y la región.',
+    detailedDescription: 'La Escuela de Oficios de la UNR ofrece herramientas de formación socio-laboral a través de ciclos cortos de capacitación que generan habilidades para la inserción laboral en diversas áreas. Con más de 10,000 graduados desde 2021, esta iniciativa brinda acceso a la educación universitaria sin importar el nivel de escolaridad alcanzado. Los cursos se dictan en convenio con la Municipalidad de Rosario en los 7 Centros de Distrito y forman parte del Programa "Impulsa" de la Provincia de Santa Fe, vinculando las capacitaciones públicas con las necesidades del sector privado. Las propuestas incluyen oficios tradicionales, tecnológicos, administrativos y de servicios, todos con certificación oficial de la Universidad Nacional de Rosario.',
+    duration: 'Ciclos cortos - Variable según el curso (generalmente 2-4 meses)',
+    level: 'Todos los niveles',
+    language: ['Español'],
+    students: '10,000+ graduados desde 2021',
+    rating: 4.9,
+    image: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=400&fit=crop',
+    tags: ['UNR', 'Oficios', 'Formación Laboral', 'Certificación Universitaria', 'Rosario', 'Inserción Laboral'],
+    whatYouWillLearn: [
+      'Oficios tradicionales: carpintería, electricidad, plomería, restauración de muebles',
+      'Tecnología: diseño asistido por computadora (CAD), modelado 3D, reparación de electrodomésticos',
+      'Construcción: bioconstrucción, elaboración de piezas cementicias, terrazo',
+      'Gastronomía: panificación (niveles inicial y medio), pastelería',
+      'Refrigeración: diagnóstico, instalación y reparación de aires acondicionados',
+      'Habilidades para insertarse efectivamente en el mercado laboral',
+      'Oficios digitales y nuevas tecnologías aplicadas',
+      'Emprendedurismo y gestión de pequeños negocios',
+      'Técnicas específicas certificadas por universidad nacional',
+      'Acceso a redes de vinculación laboral local y regional'
+    ],
+    requirements: [
+      'Ser mayor de 18 años',
+      'Sin requisitos de nivel de escolaridad previo',
+      'Residir en Rosario o la región',
+      'Inscripción presencial en Centros de Distrito según el curso',
+      'Crear cuenta en sistema SIU Guaraní 3 para inscripción online (algunos cursos)',
+      'Disponibilidad horaria según el curso elegido',
+      'Compromiso con la asistencia y finalización del curso'
+    ],
+    instructor: 'Universidad Nacional de Rosario',
+    instructorRole: 'Escuela de Oficios UNR',
     price: 'Gratuito',
     originalPrice: undefined
   }
